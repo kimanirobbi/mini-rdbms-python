@@ -1,0 +1,38 @@
+{
+  "name": "USERS",
+  "columns": [
+    {
+      "name": "EmployeeID",
+      "type": "TEXT"
+    },
+    {
+      "name": "Firstname",
+      "type": "TEXT"
+    },
+    {
+      "name": "Lastname",
+      "type": "TEXT"
+    },
+    {
+      "name": "Residence",
+      "type": "TEXT"
+    },
+    {
+      "name": "City",
+      "type": "TEXT"
+    },
+    {
+      "name": "country",
+      "type": "TEXT"
+    }
+  ],
+  "constraints": {
+    "primary_key": [
+      "EmployeeID"
+    ],
+    "unique": []
+  },
+  "indexes": [
+    "EmployeeID"
+  ]
+}

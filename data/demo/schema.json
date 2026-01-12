@@ -1,0 +1,32 @@
+{
+  "name": "demo",
+  "columns": [
+    {
+      "name": "CustomerID",
+      "type": "INT"
+    },
+    {
+      "name": "FirstName",
+      "type": "TEXT"
+    },
+    {
+      "name": "LastName",
+      "type": "TEXT"
+    },
+    {
+      "name": "Email",
+      "type": "TEXT"
+    },
+    {
+      "name": "RegistrationDate",
+      "type": "TEXT"
+    }
+  ],
+  "constraints": {
+    "primary_key": [
+      "CustomerID"
+    ],
+    "unique": []
+  },
+  "indexes": []
+}

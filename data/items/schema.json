@@ -1,0 +1,30 @@
+{
+  "name": "items",
+  "columns": [
+    {
+      "name": "id",
+      "type": "INT"
+    },
+    {
+      "name": "name",
+      "type": "TEXT"
+    },
+    {
+      "name": "qty",
+      "type": "INT"
+    }
+  ],
+  "constraints": {
+    "primary_key": [
+      "id"
+    ],
+    "unique": [
+      [
+        "name"
+      ]
+    ]
+  },
+  "indexes": [
+    "name"
+  ]
+}
